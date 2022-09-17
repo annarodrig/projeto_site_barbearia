@@ -1,0 +1,33 @@
+
+:root {
+    --cor-fundo : #f7f0f5;
+    --cor-destaque : #051923;
+    --cor-clara : #c0d6df;
+    --cor-media : #00759C;
+    --cor-escura : #003459;
+
+}
+
+body {
+    color : var(--cor-fundo);
+
+}
+h1, h2, h3 {
+    color: var(--cor-escura);
+    text-align: center;
+}
+p {
+    color: var(--cor-destaque);
+
+}
+
+#missao {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+em strong {
+    color: var(--cor-media);
+
+}
