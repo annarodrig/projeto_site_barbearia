@@ -1,15 +1,24 @@
 
 :root {
-    --cor-fundo : #f7f0f5;
+    --cor-fundo : #ffffff;
     --cor-destaque : #051923;
-    --cor-clara : #c0d6df;
+    --cor-clara : #d5e5ec;
     --cor-media : #00759C;
     --cor-escura : #003459;
 
 }
 
 body {
-    color : var(--cor-fundo);
+    background-color: var(--cor-fundo);
+
+}
+
+#banner {
+    width: 100%;
+
+}
+.principal {
+    background-color: var(--cor-clara);
 
 }
 h1, h2, h3 {
@@ -32,8 +41,8 @@ em strong {
 
 }
 
-#banner {
-    width: 100%;
+.beneficios {
+    background-color: var(--cor-fundo);
 
 }
 
@@ -41,3 +50,4 @@ em strong {
     font-style: italic;
     color: var(--cor-escura);
 }
+
