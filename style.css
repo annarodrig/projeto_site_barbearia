@@ -31,3 +31,13 @@ em strong {
     color: var(--cor-media);
 
 }
+
+#banner {
+    width: 100%;
+
+}
+
+.itens {
+    font-style: italic;
+    color: var(--cor-escura);
+}
