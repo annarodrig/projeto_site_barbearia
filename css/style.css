@@ -1,70 +1,140 @@
-
 :root {
     --cor-fundo : #ffffff;
-    --cor-destaque : #051923;
+    --cor-destaque : #04090c;
     --cor-clara : #d5e5ec;
     --cor-media : #00759C;
     --cor-escura : #003459;
+}
+
+header {
+    background-color: var(--cor-escura);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto ;
 
 }
 
-body {
-    background-color: var(--cor-fundo);
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-#banner {
-    width: 100%;
-
-}
-.principal {
-    background-color: var(--cor-clara);
-    padding: 30px;
-}
-
-.titulo-principal {
-    color: var(--cor-destaque);
-    padding-left: 20px;
-
-}
-
-.titulo-centralizado {
-    color: var(--cor-escura);
-    text-align: center;
-}
-p {
+nav li  {
+    display: inline;
+    margin: 0 0 0 15px;
     color: var(--cor-destaque);
 
 }
 
-#missao {
-    font-size: 20px;
-    text-align: center;
+nav a {
+    text-transform: uppercase;
+    color: var(--cor-destaque);
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
 
 }
 
-em strong {
-    color: var(--cor-media);
+nav a:hover {
+    color:rgb(172, 234, 236);
 
 }
 
-.beneficios {
-    background-color: var(--cor-fundo);
-    padding: 20px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
 }
 
-.itens {
-    font-style: italic;
-    color: var(--cor-escura);
-}
-
-ul {
+.produtos li {
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;  
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 3px solid var(--cor-escura);
+    border-radius: 10px;
+
 }
 
-.imagembeneficios {
+.produtos li:hover {
+    border-color: rgb(103, 187, 226);
+}
+
+.produtos li:active {
+    border-color: #197c22;
+
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.descricao-produto {
+    font-size: 18px;
+
+}
+
+.preco-produto {
+    font-size:  22px;
+    font-weight: bold;
+    margin: top 10px;
+
+} 
+
+footer {
+    text-align: center;
+    background-color: var(--cor-escura);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: lighter;
+
+}
+
+/* contatos */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
     width: 50%;
-    
+
 }
