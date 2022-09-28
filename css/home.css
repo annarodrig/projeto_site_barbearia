@@ -6,19 +6,34 @@
     --cor-clara : #d5e5ec;
     --cor-media : #00759C;
     --cor-escura : #003459;
-
 }
 
 body {
     background-color: var(--cor-fundo);
+    margin: 0;
+    font-family: 'Roboto';
+
 }
 
 .caixa {
     background-color: var(--cor-escura);
     position: relative;
-    margin: 0 auto ;
-    padding-left: 90px;
+    margin: 0 0 30px auto ;
+    padding-left: 30px;
     padding-bottom: 20px;
+
+}
+
+.titulo_principal {
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+    color: var(--cor-destaque);
+    padding-left: 180px;
+    top: 110px;
+
 }
 
 nav {
@@ -32,11 +47,13 @@ nav {
 nav ul {
     display: inline;
     margin: 0 auto;
+
 }
 
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+
 }
 nav a {
     color: var(--cor-destaque);
@@ -44,7 +61,7 @@ nav a {
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
@@ -54,67 +71,90 @@ nav a:hover {
 
 }
 
-.titulo_principal {
-    font-family: 'Roboto';
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    color: var(--cor-destaque);
-    margin: 20px;
-
-}
 
 .principal {
     box-sizing: border-box;
     background-color: var(--cor-clara);
     padding: 30px;
-    border: 20px;
+    border-radius: 2%;
+    margin: 50px;
+    box-shadow: 7px 15px 50px -18px #00759C;
+ 
 }
 
 .titulo-centralizado {
     color: var(--cor-escura);
-    text-align: center;
+    text-align: left;
     font-family: 'Roboto';
-    font-weight: 70px;
+    font-size: 25px;
     font-weight:bold;
-    padding: 10px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
 }
 
 p {
     color: var(--cor-destaque);
     font-family: 'Roboto';
+    font-size: 20px;
     
 }
 
-#missao {
-    font-size: 20px;
-    text-align: center;
-
-}
-
 em strong {
-    color: var(--cor-media);
+    color: var(--cor-escura);
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
 
 }
 
 .beneficios {
-    background-color: var(--cor-fundo);
+
+    position: relative;
+    background-color: var(--cor-clara);
     padding: 20px;
+    margin: 50px;
+    border-radius: 5%;
+    box-shadow: 7px 15px 50px -18px #00759C;
+
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+    padding-left: 20px;
+    padding-top: 40px;
+
 }
 
 .itens {
-    font-style: italic;
     color: var(--cor-escura);
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
 
 .imagembeneficios {
+    position: relative;
+    border-radius: 5%;
     width: 50%;
-    
+    box-shadow: 2px 20px 50px 24px rgba(4,9,12,0.75);
+
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor-escura);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: lighter;
+
 }

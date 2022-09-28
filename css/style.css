@@ -115,6 +115,7 @@ footer {
     font-size: 13px;
     margin-top: 20px;
     font-weight: lighter;
+    font-family: 'Roboto';
 
 }
 
@@ -135,6 +136,7 @@ form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    font-family: 'Roboto';
 
 }
 
