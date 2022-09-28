@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 :root {
     --cor-fundo : #ffffff;
     --cor-destaque : #04090c;
@@ -28,6 +30,7 @@ nav li  {
     display: inline;
     margin: 0 0 0 15px;
     color: var(--cor-destaque);
+    font-family: 'Roboto';
 
 }
 
@@ -37,6 +40,7 @@ nav a {
     font-weight: bolder;
     font-size: 30px;
     text-decoration: none;
+    font-family: 'Roboto';
 
 }
 
@@ -82,11 +86,13 @@ nav a:hover {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Roboto';
 
 }
 
 .descricao-produto {
     font-size: 18px;
+    font-family: 'Roboto';
 
 }
 
@@ -94,6 +100,7 @@ nav a:hover {
     font-size:  22px;
     font-weight: bold;
     margin: top 10px;
+    font-family: 'Roboto';
 
 } 
 

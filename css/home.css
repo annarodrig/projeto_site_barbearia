@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --cor-fundo : #ffffff;
+    --cor-destaque : #04090c;
+    --cor-clara : #d5e5ec;
+    --cor-media : #00759C;
+    --cor-escura : #003459;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.caixa {
+    background-color: var(--cor-escura);
+    position: relative;
+    margin: 0 auto ;
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0;
+    margin-right: 70px;
+    
+}
+
+nav ul {
+    display: inline;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    color: var(--cor-destaque);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+nav a:hover {
+    color:rgb(172, 234, 236);
+    ;
+
+}
+
+.titulo_principal {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor-destaque);
+    margin: 20px;
+
+}
+
+.principal {
+    box-sizing: border-box;
+    background-color: var(--cor-clara);
+    padding: 30px;
+    border: 20px;
+}
+
+.titulo-centralizado {
+    color: var(--cor-escura);
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 70px;
+    font-weight:bold;
+    padding: 10px ;
+}
+
+p {
+    color: var(--cor-destaque);
+    font-family: 'Roboto';
+    
+}
+
+#missao {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+em strong {
+    color: var(--cor-media);
+
+}
+
+.beneficios {
+    background-color: var(--cor-fundo);
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+    color: var(--cor-escura);
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+    
+}
