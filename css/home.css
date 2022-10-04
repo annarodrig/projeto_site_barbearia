@@ -36,7 +36,6 @@ nav li  {
     display: inline;
     margin: 0 0 0 15px;
     color: var(--cor-destaque);
-    font-family: 'Roboto';
 
 }
 
@@ -46,7 +45,6 @@ nav a {
     font-weight: bolder;
     font-size: 30px;
     text-decoration: none;
-    font-family: 'Roboto';
 
 }
 
@@ -62,7 +60,6 @@ nav a:hover {
 }
 
 .titulo-principal {
-    position: relative;
     font-weight:bold;
     text-align: center;
     font-size: 2em;
@@ -74,7 +71,6 @@ nav a:hover {
 
 .principal {
     padding: 3em 0;
-    border-radius: 2%;
     width: 940px;
     margin: 0 auto;
  
@@ -83,6 +79,7 @@ nav a:hover {
 .principal p {
     color: var(--cor-destaque);
     font-size: 20px;
+    margin: 0 0 1em;
     
 }
 
@@ -110,7 +107,7 @@ nav a:hover {
 
 }
 .mapa p {
-    margin: 2em;
+    margin: 0 0 2em;
     text-align: center;
     font-size: 25px;
 
@@ -178,8 +175,8 @@ footer {
 
 }
 
-@media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .video{
+@media screen and (max-width:480px) {
+    .caixa, .principal, .conteudo-beneficios, .video, .utensilios{
         width: auto;
     }
 
