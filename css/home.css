@@ -175,8 +175,8 @@ footer {
 
 }
 
-@media screen and (max-width:480px) {
-    .caixa, .principal, .conteudo-beneficios, .video, .utensilios{
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .video, .mapa, .mapa-conteudo{
         width: auto;
     }
 
