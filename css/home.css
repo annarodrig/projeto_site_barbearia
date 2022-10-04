@@ -1,154 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root {
-    --cor-fundo : #ffffff;
+    --cor-fundo : #f3f5f6;
     --cor-destaque : #04090c;
-    --cor-clara : #d5e5ec;
+    --cor-clara : #d4e6ee;
     --cor-media : #00759C;
     --cor-escura : #003459;
+
 }
 
 body {
-    background-color: var(--cor-fundo);
     margin: 0;
     font-family: 'Roboto';
+}
 
+header {
+    background-color: var(--cor-escura);
+    padding: 20px 0;
 }
 
 .caixa {
-    background-color: var(--cor-escura);
     position: relative;
-    margin: 0 0 30px auto ;
-    padding-left: 30px;
-    padding-bottom: 20px;
-
-}
-
-.titulo_principal {
-    position: absolute;
-    font-family: 'Roboto';
-    font-size: 50px;
-    font-weight:bold;
-    text-align: center;
-    color: var(--cor-destaque);
-    padding-left: 180px;
-    top: 110px;
+    width: 940px;
+    margin: 0 auto;
 
 }
 
 nav {
     position: absolute;
-    top: 125px;
+    top: 110px;
     right: 0;
-    margin-right: 70px;
-    
 }
 
-nav ul {
-    display: inline;
-    margin: 0 auto;
-
-}
-
-nav li {
+nav li  {
     display: inline;
     margin: 0 0 0 15px;
+    color: var(--cor-destaque);
+    font-family: 'Roboto';
 
 }
+
 nav a {
-    color: var(--cor-destaque);
     text-transform: uppercase;
+    color: var(--cor-destaque);
+    font-weight: bolder;
+    font-size: 30px;
     text-decoration: none;
     font-family: 'Roboto';
-    font-weight: bolder;
-    font-size: 25px;
 
 }
 
 nav a:hover {
     color:rgb(172, 234, 236);
-    ;
 
 }
 
+.banner {
+    width: 100%;
+    margin: 0;
+
+}
+
+.titulo-principal {
+    position: relative;
+    font-weight:bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: var(--cor-escura);
+    clear: left;
+
+}
 
 .principal {
-    box-sizing: border-box;
-    background-color: var(--cor-clara);
-    padding: 30px;
+    padding: 3em 0;
     border-radius: 2%;
-    margin: 50px;
-    box-shadow: 7px 15px 50px -18px #00759C;
+    width: 940px;
+    margin: 0 auto;
  
 }
 
-.titulo-centralizado {
-    color: var(--cor-escura);
-    text-align: left;
-    font-family: 'Roboto';
-    font-size: 25px;
-    font-weight:bold;
-    padding-bottom: 20px;
-    padding-left: 20px;
-
-}
-
-p {
+.principal p {
     color: var(--cor-destaque);
-    font-family: 'Roboto';
     font-size: 20px;
     
 }
 
-em strong {
+.principal em,strong {
     color: var(--cor-escura);
     font-weight: bolder;
     text-align: center;
-    font-family: 'Roboto';
     font-size: 20px;
+
+}
+
+.utensilios {
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 3%;
+    -webkit-box-shadow: -1px 2px 21px 7px #deebf0f0; 
+    box-shadow: -1px 2px 21px 7px #deebf0f0;
+
+}
+
+.mapa {
+    padding: 3em 0;
+    margin: 4em;
+
+}
+.mapa p {
+    margin: 2em;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 
 }
 
 .beneficios {
+    padding: 3em 0;
 
-    position: relative;
-    background-color: var(--cor-clara);
-    padding: 20px;
-    margin: 50px;
-    border-radius: 5%;
-    box-shadow: 7px 15px 50px -18px #00759C;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
 
 }
 
 .lista-beneficios {
+    width: 40%;
     display: inline-block;
     vertical-align: top;
-    width: 30%;
-    margin-right: 15%;
-    padding-left: 20px;
-    padding-top: 40px;
 
 }
-
 .itens {
     color: var(--cor-escura);
+    line-height: 1.5;
     font-size: 20px;
-    padding-bottom: 30px;
 }
 
-
-.imagembeneficios {
-    position: relative;
-    border-radius: 5%;
+.imagem-beneficios {
     width: 50%;
-    box-shadow: 2px 20px 50px 24px rgba(4,9,12,0.75);
+    border-radius: 3%;
+    /* -webkit-box-shadow: -1px 2px 21px 7px rgba(26,51,87,0.94); 
+    box-shadow: -1px 2px 21px 7px rgba(26,51,87,0.94); */
+    -webkit-box-shadow: -1px 2px 21px 7px #deebf0f0; 
+    box-shadow: -1px 2px 21px 7px #deebf0f0;
 
 }
+
+.video {
+    width: 560px;
+    margin: 10em auto;
+
+}
+
+/*footer*/
 
 footer {
-    text-align: center;
     background-color: var(--cor-escura);
+    text-align: center;
     padding: 40px 0;
+
 }
 
 .copyright {
@@ -156,5 +175,19 @@ footer {
     font-size: 13px;
     margin-top: 20px;
     font-weight: lighter;
+
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .video{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
 
 }

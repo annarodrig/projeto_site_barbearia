@@ -8,6 +8,11 @@
     --cor-escura : #003459;
 }
 
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
 header {
     background-color: var(--cor-escura);
     padding: 20px 0;
@@ -132,7 +137,7 @@ form {
 
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -151,4 +156,41 @@ form label, form p {
 .checkbox {
     margin: 20px 0;
 
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: var(--cor-escura);
+    color: var(--cor-fundo);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background-color: #012843;
+    transform: scale(1.1);
+
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background-color: var(--cor-media);
+    color: var(--cor-fundo);
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 1px solid var(--cor-media);
+    padding: 10px 30px;
 }
